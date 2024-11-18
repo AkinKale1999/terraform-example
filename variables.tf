@@ -54,7 +54,7 @@ variable "cidr_block_only_ones" {
 variable "cidr_block" {
   description = "cidr_block_0.0.0.0/0"
   type        = string
-  default     = "0.0.0.0/0"
+  default     = "10.0.0.0/16"
 }
 # ---------------------------------
 
